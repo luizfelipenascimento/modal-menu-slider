@@ -8,5 +8,5 @@ const rootDirectory = path.join(__dirname, '/public')
 app.use(express.static(rootDirectory))
 
 app.listen(port, () => {
-    console.log('listening up to ', port)
+    console.log('listening up to port:', port)
 })
